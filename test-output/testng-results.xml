@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="22074" started-at="2018-02-13T15:36:14Z" finished-at="2018-02-13T15:36:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="22074" started-at="2018-02-13T15:36:14Z" finished-at="2018-02-13T15:36:36Z">
+      <class name="com.crm.qa.testcases.CalenderPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="20883" started-at="2018-02-13T21:06:14Z" finished-at="2018-02-13T21:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateCalenderpageTest()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@65e2dbf3]" name="validateCalenderpageTest" duration-ms="1075" started-at="2018-02-13T21:06:35Z" finished-at="2018-02-13T21:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCalenderpageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="88" started-at="2018-02-13T21:06:36Z" finished-at="2018-02-13T21:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.crm.qa.testcases.CalenderPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
