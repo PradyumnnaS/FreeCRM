@@ -8,7 +8,7 @@ import com.crm.qa.base.TestBase;
 
 public class CalenderPage extends TestBase {
 
-	//OR for CalenderPage
+	//OR for CalenderPage and comments
 	@FindBy(xpath="//input[@value=\"<= Show Calendar for Selected User\"]")
 	WebElement calenderlabel;
 	
