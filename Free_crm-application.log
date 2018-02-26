@@ -229,3 +229,205 @@
 2018-02-13 21:06:14,842  INFO [main] CalenderPageTest:33 - Calling initialize from CalenderPageTest
 2018-02-13 21:06:23,152  INFO [main] CalenderPageTest:35 - Successfully called initialize CalenderPageTest
 2018-02-13 21:06:35,728  INFO [main] CalenderPageTest:46 - Inside validateCalenderpageTest
+2018-02-25 17:24:13,331  INFO [main] HomePageTest:24 - Successfullly called TestBase Class
+2018-02-25 17:24:13,471  INFO [main] HomePageTest:31 - Successfullly called TestBase Class
+2018-02-25 17:24:13,492  INFO [main] ContactPageTest:26 - Successfullly called TestBase Class
+2018-02-25 17:24:13,563  INFO [main] HomePageTest:29 - Inside setUp of LoginPageTest
+2018-02-25 17:24:13,563  INFO [main] HomePageTest:30 - Calling initialize method of TestBase from LoginPageTest class
+2018-02-25 17:24:26,230  INFO [main] HomePageTest:32 - Successfully called initialize method of TestBase from LoginPageTest class
+2018-02-25 17:24:26,393  INFO [main] HomePageTest:39 - Inside crmLoginPageTitleTest
+2018-02-25 17:24:26,457  INFO [main] HomePageTest:59 - Inside tearDown of LoginPageTest
+2018-02-25 17:24:26,680  INFO [main] HomePageTest:38 - Inside setUp of HomePageTest
+2018-02-25 17:24:26,681  INFO [main] HomePageTest:39 - Calling initialize method of TestBase from HomePageTest class
+2018-02-25 17:24:32,735  INFO [main] HomePageTest:43 - Successfully called initialize method of TestBase from HomePageTest class
+2018-02-25 17:24:45,242  INFO [main] HomePageTest:56 - Inside validateHomePageTest
+2018-02-25 17:24:45,340  INFO [main] HomePageTest:91 - Inside tearDown of HomePageTest
+2018-02-25 17:24:45,417  INFO [main] ContactPageTest:31 - Inside setUp of ContactPageTest
+2018-02-25 17:24:45,417  INFO [main] ContactPageTest:32 - Calling initialize method of TestBase from ContactPageTest class
+2018-02-25 17:24:51,373  INFO [main] ContactPageTest:34 - Successfully called initialize method of TestBase from ContactPageTest class
+2018-02-25 17:24:58,334  INFO [main] ContactPageTest:46 - Inside validateContactPageTest
+2018-02-25 17:24:59,452  INFO [main] ContactPageTest:53 - Inside tearDown of ContactPageTest
+2018-02-25 17:24:59,530  INFO [main] HomePageTest:29 - Inside setUp of LoginPageTest
+2018-02-25 17:24:59,530  INFO [main] HomePageTest:30 - Calling initialize method of TestBase from LoginPageTest class
+2018-02-25 17:25:05,497  INFO [main] HomePageTest:32 - Successfully called initialize method of TestBase from LoginPageTest class
+2018-02-25 17:25:05,499  INFO [main] HomePageTest:46 - Inside crmLoginPageLogoTest
+2018-02-25 17:25:05,548  INFO [main] HomePageTest:59 - Inside tearDown of LoginPageTest
+2018-02-25 17:54:02,387  INFO [main] CalenderPageTest:27 - Calling TestBase class from CalenderPageTest
+2018-02-25 17:54:02,648  INFO [main] CalenderPageTest:33 - Calling initialize from CalenderPageTest
+2018-02-25 17:54:35,867  INFO [main] CalenderPageTest:35 - Successfully called initialize CalenderPageTest
+2018-02-25 22:09:02,417  INFO [main] CalenderPageTest:27 - Calling TestBase class from CalenderPageTest
+2018-02-25 22:09:02,564  INFO [main] CalenderPageTest:33 - Calling initialize from CalenderPageTest
+2018-02-25 22:09:09,887  INFO [main] CalenderPageTest:35 - Successfully called initialize CalenderPageTest
+2018-02-25 22:09:20,278  INFO [main] CalenderPageTest:46 - Inside validateCalenderpageTest
+2018-02-25 22:09:21,431  INFO [main] CalenderPageTest:33 - Calling initialize from CalenderPageTest
+2018-02-25 22:09:27,572  INFO [main] CalenderPageTest:35 - Successfully called initialize CalenderPageTest
+2018-02-25 22:09:37,142  INFO [main] CalenderPageTest:52 - Inside createNewEventTest method
+2018-02-25 22:42:54,152  INFO [main] CalenderPageTest:27 - Calling TestBase class from CalenderPageTest
+2018-02-25 22:42:54,239  INFO [main] CalenderPageTest:33 - Calling initialize from CalenderPageTest
+2018-02-25 22:43:02,078  INFO [main] CalenderPageTest:35 - Successfully called initialize CalenderPageTest
+2018-02-25 22:43:16,547  INFO [main] CalenderPageTest:46 - Inside validateCalenderpageTest
+2018-02-25 22:43:17,697  INFO [main] CalenderPageTest:33 - Calling initialize from CalenderPageTest
+2018-02-25 22:43:24,568  INFO [main] CalenderPageTest:35 - Successfully called initialize CalenderPageTest
+2018-02-25 22:43:40,745  INFO [main] CalenderPageTest:52 - Inside createNewEventTest method
+2018-02-26 00:10:17,833  INFO [main] CalenderPageTest:27 - Calling TestBase class from CalenderPageTest
+2018-02-26 00:10:17,937  INFO [main] CalenderPageTest:33 - Calling initialize from CalenderPageTest
+2018-02-26 00:10:24,447  INFO [main] CalenderPageTest:35 - Successfully called initialize CalenderPageTest
+2018-02-26 00:10:43,375  INFO [main] CalenderPageTest:58 - Inside createNewEventTest method
+2018-02-26 00:12:53,874  INFO [main] CalenderPageTest:27 - Calling TestBase class from CalenderPageTest
+2018-02-26 00:12:53,956  INFO [main] CalenderPageTest:33 - Calling initialize from CalenderPageTest
+2018-02-26 00:13:00,658  INFO [main] CalenderPageTest:35 - Successfully called initialize CalenderPageTest
+2018-02-26 00:13:12,871  INFO [main] CalenderPageTest:58 - Inside createNewEventTest method
+2018-02-26 00:15:23,429  INFO [main] CalenderPageTest:27 - Calling TestBase class from CalenderPageTest
+2018-02-26 00:15:23,507  INFO [main] CalenderPageTest:33 - Calling initialize from CalenderPageTest
+2018-02-26 00:15:29,783  INFO [main] CalenderPageTest:35 - Successfully called initialize CalenderPageTest
+2018-02-26 00:15:45,162  INFO [main] CalenderPageTest:58 - Inside createNewEventTest method
+2018-02-26 01:04:48,814  INFO [main] CalenderPageTest:33 - Calling TestBase class from CalenderPageTest
+2018-02-26 01:04:48,894  INFO [main] CalenderPageTest:65 - Using data provider
+2018-02-26 01:04:48,894  INFO [main] CalenderPageTest:66 - Calling TestData method present inside TestUtil Class
+2018-02-26 01:04:50,117  INFO [main] CalenderPageTest:68 - Called TestData method present inside TestUtil Class and returing 2d array
+2018-02-26 01:04:50,134  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:04:56,994  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:05:13,763  INFO [main] CalenderPageTest:74 - Inside createNewEventTest method
+2018-02-26 01:05:25,782  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:05:33,055  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:05:44,296  INFO [main] CalenderPageTest:74 - Inside createNewEventTest method
+2018-02-26 01:05:46,406  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:05:52,819  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:06:02,426  INFO [main] CalenderPageTest:74 - Inside createNewEventTest method
+2018-02-26 01:06:04,370  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:06:10,424  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:06:19,920  INFO [main] CalenderPageTest:74 - Inside createNewEventTest method
+2018-02-26 01:06:22,075  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:06:28,057  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:06:39,764  INFO [main] CalenderPageTest:74 - Inside createNewEventTest method
+2018-02-26 01:13:15,376  INFO [main] CalenderPageTest:33 - Calling TestBase class from CalenderPageTest
+2018-02-26 01:13:15,455  INFO [main] CalenderPageTest:65 - Using data provider
+2018-02-26 01:13:15,456  INFO [main] CalenderPageTest:66 - Calling TestData method present inside TestUtil Class
+2018-02-26 01:13:16,161  INFO [main] CalenderPageTest:68 - Called TestData method present inside TestUtil Class and returing 2d array
+2018-02-26 01:13:16,176  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:13:23,140  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:13:37,120  INFO [main] CalenderPageTest:74 - Inside createNewEventTest method
+2018-02-26 01:13:38,954  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:13:45,274  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:13:59,044  INFO [main] CalenderPageTest:74 - Inside createNewEventTest method
+2018-02-26 01:14:00,827  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:14:06,671  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:14:16,183  INFO [main] CalenderPageTest:74 - Inside createNewEventTest method
+2018-02-26 01:14:18,246  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:14:24,055  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:14:35,977  INFO [main] CalenderPageTest:74 - Inside createNewEventTest method
+2018-02-26 01:14:38,291  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:14:44,192  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:14:55,559  INFO [main] CalenderPageTest:74 - Inside createNewEventTest method
+2018-02-26 01:19:22,628  INFO [main] HomePageTest:24 - Successfullly called TestBase Class
+2018-02-26 01:19:22,681  INFO [main] HomePageTest:31 - Successfullly called TestBase Class
+2018-02-26 01:19:22,689  INFO [main] CalenderPageTest:33 - Calling TestBase class from CalenderPageTest
+2018-02-26 01:19:22,695  INFO [main] ContactPageTest:26 - Successfullly called TestBase Class
+2018-02-26 01:19:22,764  INFO [main] HomePageTest:29 - Inside setUp of LoginPageTest
+2018-02-26 01:19:22,765  INFO [main] HomePageTest:30 - Calling initialize method of TestBase from LoginPageTest class
+2018-02-26 01:19:29,626  INFO [main] HomePageTest:32 - Successfully called initialize method of TestBase from LoginPageTest class
+2018-02-26 01:19:29,683  INFO [main] HomePageTest:39 - Inside crmLoginPageTitleTest
+2018-02-26 01:19:29,710  INFO [main] HomePageTest:59 - Inside tearDown of LoginPageTest
+2018-02-26 01:19:29,784  INFO [main] HomePageTest:38 - Inside setUp of HomePageTest
+2018-02-26 01:19:29,784  INFO [main] HomePageTest:39 - Calling initialize method of TestBase from HomePageTest class
+2018-02-26 01:19:35,768  INFO [main] HomePageTest:43 - Successfully called initialize method of TestBase from HomePageTest class
+2018-02-26 01:19:48,104  INFO [main] HomePageTest:56 - Inside validateHomePageTest
+2018-02-26 01:19:48,203  INFO [main] HomePageTest:91 - Inside tearDown of HomePageTest
+2018-02-26 01:19:48,275  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:19:54,101  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:20:05,415  INFO [main] CalenderPageTest:52 - Inside validateCalenderpageTest
+2018-02-26 01:20:06,588  INFO [main] ContactPageTest:31 - Inside setUp of ContactPageTest
+2018-02-26 01:20:06,589  INFO [main] ContactPageTest:32 - Calling initialize method of TestBase from ContactPageTest class
+2018-02-26 01:20:12,448  INFO [main] ContactPageTest:34 - Successfully called initialize method of TestBase from ContactPageTest class
+2018-02-26 01:20:21,842  INFO [main] ContactPageTest:46 - Inside validateContactPageTest
+2018-02-26 01:20:22,886  INFO [main] ContactPageTest:53 - Inside tearDown of ContactPageTest
+2018-02-26 01:20:22,970  INFO [main] HomePageTest:29 - Inside setUp of LoginPageTest
+2018-02-26 01:20:22,973  INFO [main] HomePageTest:30 - Calling initialize method of TestBase from LoginPageTest class
+2018-02-26 01:20:29,031  INFO [main] HomePageTest:32 - Successfully called initialize method of TestBase from LoginPageTest class
+2018-02-26 01:20:29,033  INFO [main] HomePageTest:46 - Inside crmLoginPageLogoTest
+2018-02-26 01:20:29,086  INFO [main] HomePageTest:59 - Inside tearDown of LoginPageTest
+2018-02-26 01:25:40,279  INFO [main] CalenderPageTest:33 - Calling TestBase class from CalenderPageTest
+2018-02-26 01:25:40,359  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:25:46,831  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:26:00,835  INFO [main] CalenderPageTest:52 - Inside validateCalenderpageTest
+2018-02-26 01:26:02,036  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:26:08,458  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:26:20,598  INFO [main] CalenderPageTest:58 - Inside validateNewEventPageTest
+2018-02-26 01:26:31,807  INFO [main] CalenderPageTest:65 - Using data provider
+2018-02-26 01:26:31,808  INFO [main] CalenderPageTest:66 - Calling TestData method present inside TestUtil Class
+2018-02-26 01:26:32,520  INFO [main] CalenderPageTest:68 - Called TestData method present inside TestUtil Class and returing 2d array
+2018-02-26 01:26:32,523  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:26:38,494  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:26:53,330  INFO [main] CalenderPageTest:74 - Inside createNewEventTest method
+2018-02-26 01:26:55,206  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:27:00,931  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:27:12,627  INFO [main] CalenderPageTest:74 - Inside createNewEventTest method
+2018-02-26 01:27:14,874  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:27:20,746  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:27:33,001  INFO [main] CalenderPageTest:74 - Inside createNewEventTest method
+2018-02-26 01:27:34,985  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:27:40,929  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:27:52,537  INFO [main] CalenderPageTest:74 - Inside createNewEventTest method
+2018-02-26 01:27:54,647  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:28:00,558  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:28:09,838  INFO [main] CalenderPageTest:74 - Inside createNewEventTest method
+2018-02-26 01:30:28,589  INFO [main] CalenderPageTest:33 - Calling TestBase class from CalenderPageTest
+2018-02-26 01:30:28,682  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:30:37,443  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:30:49,902  INFO [main] CalenderPageTest:58 - Inside validateNewEventPageTest
+2018-02-26 01:38:07,405  INFO [main] CalenderPageTest:33 - Calling TestBase class from CalenderPageTest
+2018-02-26 01:38:07,500  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:38:14,356  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:38:28,474  INFO [main] CalenderPageTest:58 - Inside validateNewEventPageTest
+2018-02-26 01:38:43,876  INFO [main] HomePageTest:24 - Successfullly called TestBase Class
+2018-02-26 01:38:43,905  INFO [main] HomePageTest:31 - Successfullly called TestBase Class
+2018-02-26 01:38:43,913  INFO [main] CalenderPageTest:33 - Calling TestBase class from CalenderPageTest
+2018-02-26 01:38:43,920  INFO [main] ContactPageTest:26 - Successfullly called TestBase Class
+2018-02-26 01:38:43,988  INFO [main] HomePageTest:29 - Inside setUp of LoginPageTest
+2018-02-26 01:38:43,988  INFO [main] HomePageTest:30 - Calling initialize method of TestBase from LoginPageTest class
+2018-02-26 01:38:50,613  INFO [main] HomePageTest:32 - Successfully called initialize method of TestBase from LoginPageTest class
+2018-02-26 01:38:50,662  INFO [main] HomePageTest:39 - Inside crmLoginPageTitleTest
+2018-02-26 01:38:50,690  INFO [main] HomePageTest:59 - Inside tearDown of LoginPageTest
+2018-02-26 01:38:50,781  INFO [main] HomePageTest:38 - Inside setUp of HomePageTest
+2018-02-26 01:38:50,782  INFO [main] HomePageTest:39 - Calling initialize method of TestBase from HomePageTest class
+2018-02-26 01:38:56,026  INFO [main] HomePageTest:43 - Successfully called initialize method of TestBase from HomePageTest class
+2018-02-26 01:39:09,033  INFO [main] HomePageTest:56 - Inside validateHomePageTest
+2018-02-26 01:39:09,131  INFO [main] HomePageTest:91 - Inside tearDown of HomePageTest
+2018-02-26 01:39:09,211  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 01:39:15,058  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 01:39:24,044  INFO [main] CalenderPageTest:52 - Inside validateCalenderpageTest
+2018-02-26 01:39:25,224  INFO [main] ContactPageTest:31 - Inside setUp of ContactPageTest
+2018-02-26 01:39:25,224  INFO [main] ContactPageTest:32 - Calling initialize method of TestBase from ContactPageTest class
+2018-02-26 01:39:31,057  INFO [main] ContactPageTest:34 - Successfully called initialize method of TestBase from ContactPageTest class
+2018-02-26 01:39:42,890  INFO [main] ContactPageTest:46 - Inside validateContactPageTest
+2018-02-26 01:39:43,985  INFO [main] ContactPageTest:53 - Inside tearDown of ContactPageTest
+2018-02-26 01:39:44,045  INFO [main] HomePageTest:29 - Inside setUp of LoginPageTest
+2018-02-26 01:39:44,045  INFO [main] HomePageTest:30 - Calling initialize method of TestBase from LoginPageTest class
+2018-02-26 01:39:49,611  INFO [main] HomePageTest:32 - Successfully called initialize method of TestBase from LoginPageTest class
+2018-02-26 01:39:49,613  INFO [main] HomePageTest:46 - Inside crmLoginPageLogoTest
+2018-02-26 01:39:49,660  INFO [main] HomePageTest:59 - Inside tearDown of LoginPageTest
+2018-02-26 21:41:36,531  INFO [main] CalenderPageTest:33 - Calling TestBase class from CalenderPageTest
+2018-02-26 21:41:36,636  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 21:41:44,272  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 21:41:55,283  INFO [main] CalenderPageTest:52 - Inside validateCalenderpageTest
+2018-02-26 21:41:56,448  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 21:42:02,887  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 21:42:13,901  INFO [main] CalenderPageTest:58 - Inside validateNewEventPageTest
+2018-02-26 21:42:15,739  INFO [main] CalenderPageTest:66 - Using data provider
+2018-02-26 21:42:15,740  INFO [main] CalenderPageTest:67 - Calling TestData method present inside TestUtil Class
+2018-02-26 21:42:16,441  INFO [main] CalenderPageTest:69 - Called TestData method present inside TestUtil Class and returing 2d array
+2018-02-26 21:42:16,444  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 21:42:22,039  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 21:42:36,535  INFO [main] CalenderPageTest:75 - Inside createNewEventTest method
+2018-02-26 21:42:38,666  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 21:42:44,955  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 21:42:57,058  INFO [main] CalenderPageTest:75 - Inside createNewEventTest method
+2018-02-26 21:42:58,995  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 21:43:05,082  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 21:43:15,429  INFO [main] CalenderPageTest:75 - Inside createNewEventTest method
+2018-02-26 21:43:17,597  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 21:43:23,532  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 21:43:31,791  INFO [main] CalenderPageTest:75 - Inside createNewEventTest method
+2018-02-26 21:43:33,999  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-02-26 21:43:44,111  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-02-26 21:43:56,927  INFO [main] CalenderPageTest:75 - Inside createNewEventTest method

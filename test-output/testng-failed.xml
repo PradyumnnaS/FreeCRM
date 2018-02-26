@@ -5,8 +5,8 @@
     <classes>
       <class name="com.crm.qa.testcases.CalenderPageTest">
         <methods>
+          <include name="validateNewEventPageTest"/>
           <include name="tearDown"/>
-          <include name="validateCalenderpageTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.CalenderPageTest -->

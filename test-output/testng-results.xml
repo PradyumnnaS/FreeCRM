@@ -1,21 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22074" started-at="2018-02-13T15:36:14Z" finished-at="2018-02-13T15:36:36Z">
+  <suite name="Default suite" duration-ms="142363" started-at="2018-02-26T16:11:36Z" finished-at="2018-02-26T16:13:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22074" started-at="2018-02-13T15:36:14Z" finished-at="2018-02-13T15:36:36Z">
+    <test name="Default test" duration-ms="142363" started-at="2018-02-26T16:11:36Z" finished-at="2018-02-26T16:13:58Z">
       <class name="com.crm.qa.testcases.CalenderPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@65e2dbf3]" name="setUp" is-config="true" duration-ms="20883" started-at="2018-02-13T21:06:14Z" finished-at="2018-02-13T21:06:35Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="setUp" is-config="true" duration-ms="18648" started-at="2018-02-26T21:41:36Z" finished-at="2018-02-26T21:41:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validateCalenderpageTest()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@65e2dbf3]" name="validateCalenderpageTest" duration-ms="1075" started-at="2018-02-13T21:06:35Z" finished-at="2018-02-13T21:06:36Z">
+        <test-method status="PASS" signature="validateCalenderpageTest()[pri:1, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="validateCalenderpageTest" duration-ms="1088" started-at="2018-02-26T21:41:55Z" finished-at="2018-02-26T21:41:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCalenderpageTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@65e2dbf3]" name="tearDown" is-config="true" duration-ms="88" started-at="2018-02-13T21:06:36Z" finished-at="2018-02-13T21:06:36Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="tearDown" is-config="true" duration-ms="81" started-at="2018-02-26T21:41:56Z" finished-at="2018-02-26T21:41:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="setUp" is-config="true" duration-ms="17452" started-at="2018-02-26T21:41:56Z" finished-at="2018-02-26T21:42:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateNewEventPageTest()[pri:2, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="validateNewEventPageTest" duration-ms="1754" started-at="2018-02-26T21:42:13Z" finished-at="2018-02-26T21:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewEventPageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="tearDown" is-config="true" duration-ms="81" started-at="2018-02-26T21:42:15Z" finished-at="2018-02-26T21:42:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="setUp" is-config="true" duration-ms="20090" started-at="2018-02-26T21:42:16Z" finished-at="2018-02-26T21:42:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewEventTest(java.lang.String, java.lang.String)[pri:3, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="createNewEventTest" duration-ms="2046" started-at="2018-02-26T21:42:36Z" data-provider="getCalenderTestdata" finished-at="2018-02-26T21:42:38Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Meeting at 10:30]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Critical]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewEventTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="tearDown" is-config="true" duration-ms="84" started-at="2018-02-26T21:42:38Z" finished-at="2018-02-26T21:42:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="setUp" is-config="true" duration-ms="18391" started-at="2018-02-26T21:42:38Z" finished-at="2018-02-26T21:42:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewEventTest(java.lang.String, java.lang.String)[pri:3, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="createNewEventTest" duration-ms="1861" started-at="2018-02-26T21:42:57Z" data-provider="getCalenderTestdata" finished-at="2018-02-26T21:42:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sprint call]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Important]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewEventTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="tearDown" is-config="true" duration-ms="76" started-at="2018-02-26T21:42:58Z" finished-at="2018-02-26T21:42:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="setUp" is-config="true" duration-ms="16433" started-at="2018-02-26T21:42:58Z" finished-at="2018-02-26T21:43:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewEventTest(java.lang.String, java.lang.String)[pri:3, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="createNewEventTest" duration-ms="2061" started-at="2018-02-26T21:43:15Z" data-provider="getCalenderTestdata" finished-at="2018-02-26T21:43:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Daily Status meeting]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Optional]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewEventTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="tearDown" is-config="true" duration-ms="106" started-at="2018-02-26T21:43:17Z" finished-at="2018-02-26T21:43:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="setUp" is-config="true" duration-ms="14195" started-at="2018-02-26T21:43:17Z" finished-at="2018-02-26T21:43:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewEventTest(java.lang.String, java.lang.String)[pri:3, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="createNewEventTest" duration-ms="2127" started-at="2018-02-26T21:43:31Z" data-provider="getCalenderTestdata" finished-at="2018-02-26T21:43:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Selenium Training]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Opportunity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewEventTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="tearDown" is-config="true" duration-ms="79" started-at="2018-02-26T21:43:33Z" finished-at="2018-02-26T21:43:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="setUp" is-config="true" duration-ms="22928" started-at="2018-02-26T21:43:33Z" finished-at="2018-02-26T21:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="createNewEventTest(java.lang.String, java.lang.String)[pri:3, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="createNewEventTest" duration-ms="1941" started-at="2018-02-26T21:43:56Z" data-provider="getCalenderTestdata" finished-at="2018-02-26T21:43:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Swach bharat program Plantation]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Social]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewEventTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.CalenderPageTest@47ef968d]" name="tearDown" is-config="true" duration-ms="88" started-at="2018-02-26T21:43:58Z" finished-at="2018-02-26T21:43:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

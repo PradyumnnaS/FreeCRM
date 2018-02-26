@@ -4,6 +4,7 @@ package com.crm.qa.pages;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 
 import com.crm.qa.base.TestBase;
 
@@ -16,6 +17,9 @@ public class HomePage extends TestBase {
 	
 	@FindBy(xpath="//a[@title='Calendar']")
 	WebElement calenderlink;
+	
+	@FindBy(xpath="//a[@title='New Event']")
+	WebElement neweventlink;
 	
 	@FindBy(xpath="//a[@title='Companies']")
 	WebElement companieslink;
@@ -85,6 +89,13 @@ public class HomePage extends TestBase {
 	public CalenderPage clickonCalender() {
 	    calenderlink.click();
 	    return new CalenderPage();
+	}
+	
+	public CalenderPage clickOnCalenderNewEventLink() {
+		Actions action = new Actions(driver);
+		action.moveToElement(calenderlink).build().perform();
+		neweventlink.click();
+		return new CalenderPage();
 	}
 	
 	//Click on companies link
