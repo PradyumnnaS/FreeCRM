@@ -193,3 +193,60 @@
 2018-04-09 22:10:35,254  INFO [main] HomePageTest:32 - Successfully called initialize method of TestBase from LoginPageTest class
 2018-04-09 22:10:35,256  INFO [main] HomePageTest:53 - Inside crmValideUserLoginTest
 2018-04-09 22:10:45,651  INFO [main] HomePageTest:59 - Inside tearDown of LoginPageTest
+2018-05-06 12:34:56,131  INFO [main] HomePageTest:24 - Successfullly called TestBase Class
+2018-05-06 12:34:56,138  INFO [main] HomePageTest:31 - Successfullly called TestBase Class
+2018-05-06 12:34:56,140  INFO [main] ContactPageTest:26 - Successfullly called TestBase Class
+2018-05-06 12:34:56,142  INFO [main] CalenderPageTest:33 - Calling TestBase class from CalenderPageTest
+2018-05-06 12:34:56,294  INFO [main] HomePageTest:29 - Inside setUp of LoginPageTest
+2018-05-06 12:34:56,294  INFO [main] HomePageTest:30 - Calling initialize method of TestBase from LoginPageTest class
+2018-05-06 12:35:08,477  INFO [main] HomePageTest:32 - Successfully called initialize method of TestBase from LoginPageTest class
+2018-05-06 12:35:08,592  INFO [main] HomePageTest:39 - Inside crmLoginPageTitleTest
+2018-05-06 12:35:08,649  INFO [main] HomePageTest:59 - Inside tearDown of LoginPageTest
+2018-05-06 12:35:09,487  INFO [main] HomePageTest:29 - Inside setUp of LoginPageTest
+2018-05-06 12:35:09,488  INFO [main] HomePageTest:30 - Calling initialize method of TestBase from LoginPageTest class
+2018-05-06 12:35:19,339  INFO [main] HomePageTest:32 - Successfully called initialize method of TestBase from LoginPageTest class
+2018-05-06 12:35:19,343  INFO [main] HomePageTest:46 - Inside crmLoginPageLogoTest
+2018-05-06 12:35:19,509  INFO [main] HomePageTest:59 - Inside tearDown of LoginPageTest
+2018-05-06 12:35:20,353  INFO [main] HomePageTest:29 - Inside setUp of LoginPageTest
+2018-05-06 12:35:20,354  INFO [main] HomePageTest:30 - Calling initialize method of TestBase from LoginPageTest class
+2018-05-06 12:35:32,182  INFO [main] HomePageTest:32 - Successfully called initialize method of TestBase from LoginPageTest class
+2018-05-06 12:35:32,185  INFO [main] HomePageTest:53 - Inside crmValideUserLoginTest
+2018-05-06 12:35:43,020  INFO [main] HomePageTest:59 - Inside tearDown of LoginPageTest
+2018-05-06 12:35:43,879  INFO [main] HomePageTest:38 - Inside setUp of HomePageTest
+2018-05-06 12:35:43,879  INFO [main] HomePageTest:39 - Calling initialize method of TestBase from HomePageTest class
+2018-05-06 12:35:55,417  INFO [main] HomePageTest:43 - Successfully called initialize method of TestBase from HomePageTest class
+2018-05-06 12:36:03,753  INFO [main] HomePageTest:55 - Inside validateHomePageTest
+2018-05-06 12:36:03,874  INFO [main] HomePageTest:91 - Inside tearDown of HomePageTest
+2018-05-06 12:36:04,692  INFO [main] HomePageTest:38 - Inside setUp of HomePageTest
+2018-05-06 12:36:04,692  INFO [main] HomePageTest:39 - Calling initialize method of TestBase from HomePageTest class
+2018-05-06 12:36:13,983  INFO [main] HomePageTest:43 - Successfully called initialize method of TestBase from HomePageTest class
+2018-05-06 12:36:22,733  INFO [main] HomePageTest:63 - Inside clickonCalenderLinkTest
+2018-05-06 12:36:22,987  INFO [main] HomePageTest:91 - Inside tearDown of HomePageTest
+2018-05-06 12:36:23,868  INFO [main] HomePageTest:38 - Inside setUp of HomePageTest
+2018-05-06 12:36:23,869  INFO [main] HomePageTest:39 - Calling initialize method of TestBase from HomePageTest class
+2018-05-06 12:36:33,597  INFO [main] HomePageTest:43 - Successfully called initialize method of TestBase from HomePageTest class
+2018-05-06 12:36:43,644  INFO [main] HomePageTest:70 - Inside clickoncompaniesLinkTest
+2018-05-06 12:36:43,897  INFO [main] HomePageTest:91 - Inside tearDown of HomePageTest
+2018-05-06 12:36:44,719  INFO [main] HomePageTest:38 - Inside setUp of HomePageTest
+2018-05-06 12:36:44,720  INFO [main] HomePageTest:39 - Calling initialize method of TestBase from HomePageTest class
+2018-05-06 12:36:54,289  INFO [main] HomePageTest:43 - Successfully called initialize method of TestBase from HomePageTest class
+2018-05-06 12:37:04,774  INFO [main] HomePageTest:77 - Inside clickonContactPageTest
+2018-05-06 12:37:04,995  INFO [main] HomePageTest:91 - Inside tearDown of HomePageTest
+2018-05-06 12:37:05,805  INFO [main] HomePageTest:38 - Inside setUp of HomePageTest
+2018-05-06 12:37:05,806  INFO [main] HomePageTest:39 - Calling initialize method of TestBase from HomePageTest class
+2018-05-06 12:37:15,532  INFO [main] HomePageTest:43 - Successfully called initialize method of TestBase from HomePageTest class
+2018-05-06 12:37:22,927  INFO [main] HomePageTest:85 - Inside clickondealslinktest class
+2018-05-06 12:37:23,431  INFO [main] HomePageTest:91 - Inside tearDown of HomePageTest
+2018-05-06 12:37:24,269  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-05-06 12:37:33,575  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-05-06 12:37:42,652  INFO [main] CalenderPageTest:52 - Inside validateCalenderpageTest
+2018-05-06 12:37:44,586  INFO [main] CalenderPageTest:39 - Calling initialize from CalenderPageTest
+2018-05-06 12:37:52,757  INFO [main] CalenderPageTest:41 - Successfully called initialize CalenderPageTest
+2018-05-06 12:37:59,764  INFO [main] CalenderPageTest:58 - Inside validateNewEventPageTest
+2018-05-06 12:38:01,515  INFO [main] CalenderPageTest:66 - Using data provider
+2018-05-06 12:38:01,516  INFO [main] CalenderPageTest:67 - Calling TestData method present inside TestUtil Class
+2018-05-06 12:38:01,537  INFO [main] ContactPageTest:31 - Inside setUp of ContactPageTest
+2018-05-06 12:38:01,539  INFO [main] ContactPageTest:32 - Calling initialize method of TestBase from ContactPageTest class
+2018-05-06 12:38:09,362  INFO [main] ContactPageTest:34 - Successfully called initialize method of TestBase from ContactPageTest class
+2018-05-06 12:38:16,084  INFO [main] ContactPageTest:46 - Inside validateContactPageTest
+2018-05-06 12:38:17,189  INFO [main] ContactPageTest:53 - Inside tearDown of ContactPageTest

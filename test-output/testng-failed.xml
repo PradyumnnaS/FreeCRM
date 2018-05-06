@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite name="Failed suite [FreeCRM Test Automation Suite]">
+  <listeners>
+    <listener class-name="com.crm.qa.extendreportlistener.ExtendReportListener"/>
+  </listeners>
+  <test name="Smoke CRM Test(failed)">
     <classes>
       <class name="com.crm.qa.testcases.LoginPageTest">
         <methods>
@@ -10,6 +13,26 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.ContactPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.ContactPageTest -->
+      <class name="com.crm.qa.testcases.CalenderPageTest">
+        <methods>
+          <include name="validateNewEventPageTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="createNewEventTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CalenderPageTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Smoke CRM Test(failed) -->
+</suite> <!-- Failed suite [FreeCRM Test Automation Suite] -->
