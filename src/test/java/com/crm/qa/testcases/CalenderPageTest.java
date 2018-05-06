@@ -33,7 +33,7 @@ public class CalenderPageTest extends TestBase{
 		log.info("Calling TestBase class from CalenderPageTest");
 	}
 	
-	//SetupMethod
+	//SetupMethod	
 	@BeforeMethod
 	public void setUp() throws InterruptedException {
 		log.info("Calling initialize from CalenderPageTest");

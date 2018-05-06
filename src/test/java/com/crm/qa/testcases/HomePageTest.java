@@ -47,8 +47,7 @@ public class HomePageTest extends TestBase{
 		calenderpage= new CalenderPage();
 		companiespage= new CompaniesPage();
 		dealspage= new DealsPage();
-		homepage = loginpage.login(prop.getProperty("username"), prop.getProperty("password"));
-		
+		homepage = loginpage.login(prop.getProperty("username"), prop.getProperty("password"));		
 	}
 	
 	@Test(priority=1)
@@ -65,6 +64,7 @@ public class HomePageTest extends TestBase{
 		testutil.switchToWindow();
 		calenderpage=homepage.clickonCalender();
 	}
+	
 	@Test(priority=3)
 	public void clickonCompaniesLinkTest(){
 		log.info("Inside clickoncompaniesLinkTest");
