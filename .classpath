@@ -27,5 +27,43 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="/home/PradyumnnaS/EclipseHome/Java/client-combined-3.6.0.jar"/>
+	<classpathentry kind="lib" path="/home/PradyumnnaS/.m2/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="log4j"/>
+			<attribute name="maven.artifactId" value="log4j"/>
+			<attribute name="maven.version" value="1.2.17"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/PradyumnnaS/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="com.relevantcodes"/>
+			<attribute name="maven.artifactId" value="extentreports"/>
+			<attribute name="maven.version" value="2.41.2"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/PradyumnnaS/.p2/pool/plugins/org.testng_6.12.0.r201709030044.jar" sourcepath="/home/PradyumnnaS/.p2/pool/plugins/org.testng.source_6.12.0.r201709030044.jar"/>
+	<classpathentry kind="lib" path="/home/PradyumnnaS/.m2/repository/org/apache/poi/poi/3.17/poi-3.17.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.poi"/>
+			<attribute name="maven.artifactId" value="poi"/>
+			<attribute name="maven.version" value="3.17"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="/home/PradyumnnaS/.m2/repository/org/apache/poi/poi-ooxml/3.17/poi-ooxml-3.17.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.poi"/>
+			<attribute name="maven.artifactId" value="poi-ooxml"/>
+			<attribute name="maven.version" value="3.17"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
