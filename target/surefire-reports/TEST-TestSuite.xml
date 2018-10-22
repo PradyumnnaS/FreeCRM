@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="48" failures="4" name="TestSuite" time="880.637" errors="0" skipped="44">
+  <properties>
+    <property name="DISPLAY" value=":0"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="CLUTTER_IM_MODULE" value="xim"/>
+    <property name="java.home" value="/home/cavisson/apps/jdk1.8.0_121/jre"/>
+    <property name="XDG_GREETER_DATA_DIR" value="/var/lib/lightdm-data/PradyumnnaS"/>
+    <property name="LOGNAME" value="PradyumnnaS"/>
+    <property name="VTE_VERSION" value="4205"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PWD" value="/home/PradyumnnaS/Jenkins"/>
+    <property name="sun.font.fontmanager" value="sun.awt.X11FontManager"/>
+    <property name="GDMSESSION" value="ubuntu"/>
+    <property name="java.endorsed.dirs" value="/home/cavisson/apps/jdk1.8.0_121/jre/lib/endorsed"/>
+    <property name="XDG_SEAT_PATH" value="/org/freedesktop/DisplayManager/Seat0"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="GPG_AGENT_INFO" value="/home/PradyumnnaS/.gnupg/S.gpg-agent:0:1"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="JOB_NAME" value="FreeCRMAutoMationJob"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="XDG_DATA_DIRS" value="/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"/>
+    <property name="user.name" value="PradyumnnaS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="XDG_RUNTIME_DIR" value="/run/user/1004"/>
+    <property name="UPSTART_JOB" value="unity-settings-daemon"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="GNOME_KEYRING_CONTROL" value=""/>
+    <property name="XDG_SESSION_DESKTOP" value="ubuntu"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/FreeCRMAutoMationJob/6/display/redirect?page=changes"/>
+    <property name="CVSROOT" value=":pserver:pradyumnna.satapathy@10.10.30.23:8801/docs/cvsroot"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="path.separator" value=":"/>
+    <property name="WINDOWID" value="85983238"/>
+    <property name="BUILD_TAG" value="jenkins-FreeCRMAutoMationJob-6"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="GTK_MODULES" value="gail:atk-bridge:unity-gtk-module"/>
+    <property name="MANDATORY_PATH" value="/usr/share/gconf/ubuntu.mandatory.path"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="PATH" value="/apps/java/jdk1.8.0_121//bin:/home/PradyumnnaS/bin:/home/PradyumnnaS/.local/bin:/home/PradyumnnaS/.nvm/versions/node/v8.9.4/bin:/home/PradyumnnaS/bin:/home/PradyumnnaS/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/home/netstorm/work/bin:/home/netstorm/work/tools:/apps/java/jdk1.8.0_121/bin:/snap/bin:/snap/bin"/>
+    <property name="QT_ACCESSIBILITY" value="1"/>
+    <property name="DESKTOP_SESSION" value="ubuntu"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main /home/PradyumnnaS/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/FreeCRM-Maven /home/PradyumnnaS/.jenkins/war/WEB-INF/lib/remoting-3.20.jar /home/PradyumnnaS/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12-alpha-1.jar /home/PradyumnnaS/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar 22255"/>
+    <property name="XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/usr/share/upstart/xdg:/etc/xdg"/>
+    <property name="JENKINS_SERVER_COOKIE" value="70af37ac61f5a852"/>
+    <property name="SESSIONTYPE" value="gnome-session"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="XDG_SESSION_TYPE" value="x11"/>
+    <property name="XDG_SESSION_PATH" value="/org/freedesktop/DisplayManager/Session0"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="user.language" value="en"/>
+    <property name="line.separator" value="
+"/>
+    <property name="GTK2_MODULES" value="overlay-scrollbar"/>
+    <property name="SHLVL" value="1"/>
+    <property name="M2_HOME" value="/home/PradyumnnaS/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/FreeCRM-Maven"/>
+    <property name="USER" value="PradyumnnaS"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="UPSTART_EVENTS" value="started starting"/>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="BUILD_DISPLAY_NAME" value="#6"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="HUDSON_SERVER_COOKIE" value="70af37ac61f5a852"/>
+    <property name="UPSTART_SESSION" value="unix:abstract=/com/ubuntu/upstart-session/1004/3347"/>
+    <property name="MAVEN_HOME" value="/home/PradyumnnaS/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/FreeCRM-Maven"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="DEFAULTS_PATH" value="/usr/share/gconf/ubuntu.default.path"/>
+    <property name="maven3.interceptor.common" value="/home/PradyumnnaS/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.12-alpha-1.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated"/>
+    <property name="XAUTHORITY" value="/home/PradyumnnaS/.Xauthority"/>
+    <property name="LESSCLOSE" value="/usr/bin/lesspipe %s %s"/>
+    <property name="XDG_CURRENT_DESKTOP" value="Unity"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="6"/>
+    <property name="NVM_DIR" value="/home/PradyumnnaS/.nvm"/>
+    <property name="maven3.interceptor" value="/home/PradyumnnaS/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-interceptor-1.12-alpha-1.jar"/>
+    <property name="java.library.path" value="/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="QT_IM_MODULE" value="ibus"/>
+    <property name="NVM_BIN" value="/home/PradyumnnaS/.nvm/versions/node/v8.9.4/bin"/>
+    <property name="POM_GROUPID" value="FreeCRMAutomation"/>
+    <property name="POM_ARTIFACTID" value="FreeCRMTest"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="DBUS_SESSION_BUS_ADDRESS" value="unix:abstract=/tmp/dbus-oc94hBTsFI"/>
+    <property name="UPSTART_INSTANCE" value=""/>
+    <property name="RUN_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/FreeCRMAutoMationJob/6/display/redirect"/>
+    <property name="JENKINS_HOME" value="/home/PradyumnnaS/.jenkins"/>
+    <property name="COMPIZ_CONFIG_PROFILE" value="ubuntu"/>
+    <property name="BUILD_ID" value="6"/>
+    <property name="sun.boot.library.path" value="/home/cavisson/apps/jdk1.8.0_121/jre/lib/amd64"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="EWD" value="/home/PradyumnnaS/EclipseHome/workspace"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="GTK_IM_MODULE" value="ibus"/>
+    <property name="HUDSON_HOME" value="/home/PradyumnnaS/.jenkins"/>
+    <property name="PATH+MAVEN" value="/home/PradyumnnaS/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/FreeCRM-Maven/bin"/>
+    <property name="OLDPWD" value="/home/PradyumnnaS"/>
+    <property name="INSTANCE" value="Unity"/>
+    <property name="QT_QPA_PLATFORMTHEME" value="appmenu-qt5"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="/apps/java/jdk1.8.0_121/"/>
+    <property name="SHELL" value=""/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="JOB_DISPLAY_URL" value="http://unconfigured-jenkins-location/job/FreeCRMAutoMationJob/display/redirect"/>
+    <property name="securerandom.source" value="file:/dev/./urandom"/>
+    <property name="java.ext.dirs" value="/home/cavisson/apps/jdk1.8.0_121/jre/lib/ext:/usr/java/packages/lib/ext"/>
+    <property name="os.version" value="4.4.0-78-cavisson"/>
+    <property name="user.home" value="/home/PradyumnnaS"/>
+    <property name="_" value="/usr/bin/nohup"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="JOB" value="gnome-session"/>
+    <property name="IM_CONFIG_PHASE" value="1"/>
+    <property name="user.dir" value="/home/PradyumnnaS/EclipseHome/workspace/FreeCRM/FreeCRMTest"/>
+    <property name="maven.conf" value="/home/PradyumnnaS/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/FreeCRM-Maven/conf"/>
+    <property name="GDM_LANG" value="en_US"/>
+    <property name="XDG_VTNR" value="7"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="LC_ALL" value="en_US.UTF-8"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.class.path" value="/home/PradyumnnaS/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven35-agent-1.12-alpha-1.jar:/home/PradyumnnaS/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/FreeCRM-Maven/boot/plexus-classworlds-2.5.2.jar:/home/PradyumnnaS/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/FreeCRM-Maven/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="XDG_SEAT" value="seat0"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="WORKSPACE" value="/home/PradyumnnaS/.jenkins/workspace/FreeCRMAutoMationJob"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="GNOME_KEYRING_PID" value=""/>
+    <property name="LESSOPEN" value="| /usr/bin/lesspipe %s"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="/"/>
+    <property name="LANGUAGE" value="en_US.UTF-8:en"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="XDG_SESSION_ID" value="c8"/>
+    <property name="sun.boot.class.path" value="/home/cavisson/apps/jdk1.8.0_121/jre/lib/resources.jar:/home/cavisson/apps/jdk1.8.0_121/jre/lib/rt.jar:/home/cavisson/apps/jdk1.8.0_121/jre/lib/sunrsasign.jar:/home/cavisson/apps/jdk1.8.0_121/jre/lib/jsse.jar:/home/cavisson/apps/jdk1.8.0_121/jre/lib/jce.jar:/home/cavisson/apps/jdk1.8.0_121/jre/lib/charsets.jar:/home/cavisson/apps/jdk1.8.0_121/jre/lib/jfr.jar:/home/cavisson/apps/jdk1.8.0_121/jre/classes"/>
+    <property name="QT4_IM_MODULE" value="xim"/>
+    <property name="PATH+JDK" value="/apps/java/jdk1.8.0_121//bin"/>
+    <property name="user.country" value="US"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="maven.home" value="/home/PradyumnnaS/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/FreeCRM-Maven"/>
+    <property name="JOB_BASE_NAME" value="FreeCRMAutoMationJob"/>
+    <property name="XMODIFIERS" value="@im=ibus"/>
+    <property name="HOME" value="/home/PradyumnnaS"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="QT_LINUX_ACCESSIBILITY_ALWAYS_ON" value="1"/>
+    <property name="NVM_CD_FLAGS" value=""/>
+    <property name="SSH_AUTH_SOCK" value="/run/user/1004/keyring/ssh"/>
+    <property name="LS_COLORS" value="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"/>
+    <property name="POM_DISPLAYNAME" value="FreeCRMTest"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="setUp" time="17.485">
+    <failure message="no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-78-cavisson x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;netstorm-TECRA-C50-C&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-78-cavisson&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 9f186fc03118a9d35e84f7d7f7695e3e
+*** Element info: {Using=name, value=username}" type="org.openqa.selenium.NoSuchWindowException">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-78-cavisson x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;netstorm-TECRA-C50-C&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-78-cavisson&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 9f186fc03118a9d35e84f7d7f7695e3e
+*** Element info: {Using=name, value=username}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$2.invoke(EventFiringWebDriver.java:108)
+	at com.sun.proxy.$Proxy6.findElement(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:192)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy10.sendKeys(Unknown Source)
+	at com.crm.qa.pages.LoginPage.login(LoginPage.java:47)
+	at com.crm.qa.testcases.ContactPageTest.setUp(ContactPageTest.java:38)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@6bc168e5
+2018-05-11 17:34:43,777[MM-dd-yyyy HH:mm:ss] ContactPageTest.java INFO  [main] testcases.ContactPageTest 26 Successfullly called TestBase Class
+2018-05-11 17:34:43,825[MM-dd-yyyy HH:mm:ss] LoginPageTest.java INFO  [main] testcases.HomePageTest 24 Successfullly called TestBase Class
+2018-05-11 17:34:43,832[MM-dd-yyyy HH:mm:ss] CalenderPageTest.java INFO  [main] testcases.CalenderPageTest 33 Calling TestBase class from CalenderPageTest
+2018-05-11 17:34:43,841[MM-dd-yyyy HH:mm:ss] HomePageTest.java INFO  [main] testcases.HomePageTest 31 Successfullly called TestBase Class
+2018-05-11 17:34:43,888[MM-dd-yyyy HH:mm:ss] ContactPageTest.java INFO  [main] testcases.ContactPageTest 31 Inside setUp of ContactPageTest
+2018-05-11 17:34:43,888[MM-dd-yyyy HH:mm:ss] ContactPageTest.java INFO  [main] testcases.ContactPageTest 32 Calling initialize method of TestBase from ContactPageTest class
+Before navigating to: &apos;https://www.freecrm.com&apos;
+Navigated to:&apos;https://www.freecrm.com&apos;
+2018-05-11 17:35:00,827[MM-dd-yyyy HH:mm:ss] ContactPageTest.java INFO  [main] testcases.ContactPageTest 34 Successfully called initialize method of TestBase from ContactPageTest class
+Trying to find Element By : By.name: username
+Exception occured: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=63.0.3239.132)
+  (Driver info: chromedriver=2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881),platform=Linux 4.4.0-78-cavisson x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.8.1&apos;, revision: &apos;6e95a6684b&apos;, time: &apos;2017-12-01T18:33:54.468Z&apos;
+System info: host: &apos;netstorm-TECRA-C50-C&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;4.4.0-78-cavisson&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528139 (47ead77cb35ad2..., userDataDir: /tmp/.org.chromium.Chromium...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 63.0.3239.132, webStorageEnabled: true}
+Session ID: 9f186fc03118a9d35e84f7d7f7695e3e
+*** Element info: {Using=name, value=username}
+</system-out>
+    <system-err>Starting ChromeDriver 2.35.528139 (47ead77cb35ad2a9a83248b292151462a66cd881) on port 1024
+Only local connections are allowed.
+May 11, 2018 5:34:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="validateContactPageTest" time="17.486">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.ContactPageTest" name="tearDown" time="17.487">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="setUp" time="17.488">
+    <failure message="Unable to find a free port" type="java.lang.RuntimeException">java.lang.RuntimeException: Unable to find a free port
+	at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:67)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:335)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.crm.qa.base.TestBase.initialize(TestBase.java:57)
+	at com.crm.qa.testcases.LoginPageTest.setUp(LoginPageTest.java:31)
+</failure>
+    <system-out>2018-05-11 17:35:00,946[MM-dd-yyyy HH:mm:ss] LoginPageTest.java INFO  [main] testcases.HomePageTest 29 Inside setUp of LoginPageTest
+2018-05-11 17:35:00,946[MM-dd-yyyy HH:mm:ss] LoginPageTest.java INFO  [main] testcases.HomePageTest 30 Calling initialize method of TestBase from LoginPageTest class
+</system-out>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="crmLoginPageTitleTest" time="17.488">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="tearDown" time="17.489">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="setUp" time="17.492">
+    <failure message="Unable to find a free port" type="java.lang.RuntimeException">java.lang.RuntimeException: Unable to find a free port
+	at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:67)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:335)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.crm.qa.base.TestBase.initialize(TestBase.java:57)
+	at com.crm.qa.testcases.CalenderPageTest.setUp(CalenderPageTest.java:40)
+</failure>
+    <system-out>2018-05-11 17:35:00,950[MM-dd-yyyy HH:mm:ss] CalenderPageTest.java INFO  [main] testcases.CalenderPageTest 39 Calling initialize from CalenderPageTest
+</system-out>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="validateCalenderpageTest" time="17.492">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="tearDown" time="17.492">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="setUp" time="17.496">
+    <failure message="Unable to find a free port" type="java.lang.RuntimeException">java.lang.RuntimeException: Unable to find a free port
+	at org.openqa.selenium.net.PortProber.findFreePort(PortProber.java:67)
+	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:335)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:88)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at com.crm.qa.base.TestBase.initialize(TestBase.java:57)
+	at com.crm.qa.testcases.HomePageTest.setUp(HomePageTest.java:42)
+</failure>
+    <system-out>2018-05-11 17:35:00,953[MM-dd-yyyy HH:mm:ss] HomePageTest.java INFO  [main] testcases.HomePageTest 38 Inside setUp of HomePageTest
+2018-05-11 17:35:00,954[MM-dd-yyyy HH:mm:ss] HomePageTest.java INFO  [main] testcases.HomePageTest 39 Calling initialize method of TestBase from HomePageTest class
+</system-out>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="validateHomePageTest" time="17.496">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="tearDown" time="17.496">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="setUp" time="17.497">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="crmLoginPageLogoTest" time="17.497">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="tearDown" time="17.503">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="setUp" time="17.503">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="validateNewEventPageTest" time="17.504">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="tearDown" time="17.504">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="setUp" time="17.504">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="clickonCalenderLinkTest" time="17.504">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="tearDown" time="17.504">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="setUp" time="17.504">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="crmValideUserLoginTest" time="17.504">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginPageTest" name="tearDown" time="17.504">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="setUp" time="19.186">
+    <skipped/>
+    <system-out>2018-05-11 17:35:00,965[MM-dd-yyyy HH:mm:ss] CalenderPageTest.java INFO  [main] testcases.CalenderPageTest 66 Using data provider
+2018-05-11 17:35:00,966[MM-dd-yyyy HH:mm:ss] CalenderPageTest.java INFO  [main] testcases.CalenderPageTest 67 Calling TestData method present inside TestUtil Class
+2018-05-11 17:35:02,637[MM-dd-yyyy HH:mm:ss] CalenderPageTest.java INFO  [main] testcases.CalenderPageTest 69 Called TestData method present inside TestUtil Class and returing 2d array
+</system-out>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="createNewEventTest" time="19.186">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="tearDown" time="19.187">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="setUp" time="19.189">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="createNewEventTest" time="19.189">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="tearDown" time="19.19">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="setUp" time="19.19">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="createNewEventTest" time="19.191">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="tearDown" time="19.191">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="setUp" time="19.192">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="createNewEventTest" time="19.192">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="tearDown" time="19.196">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="setUp" time="19.198">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="createNewEventTest" time="19.202">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.CalenderPageTest" name="tearDown" time="19.202">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="setUp" time="19.203">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="clickonCompaniesLinkTest" time="19.203">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="tearDown" time="19.203">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="setUp" time="19.204">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="clickonContactLinkTest" time="19.204">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="tearDown" time="19.204">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="setUp" time="19.205">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="clickonDealsLinkTest" time="19.205">
+    <skipped/>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="tearDown" time="19.206">
+    <skipped/>
+  </testcase>
+</testsuite>
