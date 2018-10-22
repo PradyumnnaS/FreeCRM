@@ -53,11 +53,19 @@ public class TestBase {
 		if (browserName.equals("chrome")) {
 			
 			System.setProperty("webdriver.chrome.driver",
+<<<<<<< HEAD
 					"/home/PradyumnnaS/EclipseHome/Java/chromedriver");
 			driver = new ChromeDriver();
 		}else if(browserName.equals("FF")){
 			System.setProperty("webdriver.gecko.driver",
 					"/home/PradyumnnaS/EclipseHome/Java/geckodriver");
+=======
+					"F:/WorkPlatForm/chromedriver.exe");
+			driver = new ChromeDriver();
+		}else if(browserName.equals("FF")){
+			System.setProperty("webdriver.gecko.driver",
+					"F:/WorkPlatForm/geckodriver.exe");
+>>>>>>> 95eb373b6d7c906731862ea52824ba3133b9d45d
 			driver = new FirefoxDriver();
 		}
 		

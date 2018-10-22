@@ -1,16 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<<<<<<< HEAD
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+=======
+<suite name="Failed suite [FreeCRM Test Automation Suite]">
+  <listeners>
+    <listener class-name="com.crm.qa.extendreportlistener.ExtendReportListener"/>
+  </listeners>
+  <test name="Smoke CRM Test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="crmLoginPageTitleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+      <class name="com.crm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.ContactPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.ContactPageTest -->
+>>>>>>> 95eb373b6d7c906731862ea52824ba3133b9d45d
       <class name="com.crm.qa.testcases.CalenderPageTest">
         <methods>
           <include name="validateNewEventPageTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
+<<<<<<< HEAD
           <include name="createNewEventTest" invocation-numbers="0 2 4"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.CalenderPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
+=======
+          <include name="createNewEventTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CalenderPageTest -->
+    </classes>
+  </test> <!-- Smoke CRM Test(failed) -->
+</suite> <!-- Failed suite [FreeCRM Test Automation Suite] -->
+>>>>>>> 95eb373b6d7c906731862ea52824ba3133b9d45d

@@ -3,6 +3,7 @@
 <suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.crm.qa.testcases.CalenderPageTest">
         <methods>
           <include name="validateNewEventPageTest"/>
@@ -11,6 +12,15 @@
           <include name="createNewEventTest" invocation-numbers="0 2 4"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.CalenderPageTest -->
+=======
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="crmLoginPageTitleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
+>>>>>>> 95eb373b6d7c906731862ea52824ba3133b9d45d
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

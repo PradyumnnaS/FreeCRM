@@ -1,5 +1,10 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: PradyumnnaS
 Build-Jdk: 1.8.0_121
+=======
+Built-By: Pradyumnna
+Build-Jdk: 1.8.0_111
+>>>>>>> 95eb373b6d7c906731862ea52824ba3133b9d45d
 Created-By: Maven Integration for Eclipse
 

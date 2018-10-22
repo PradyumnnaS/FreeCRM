@@ -30,7 +30,10 @@ public class TestUtil extends TestBase{
 	public void switchToWindow() {
 		
 		driver.switchTo().frame("mainpanel");
+<<<<<<< HEAD
 
+=======
+>>>>>>> 95eb373b6d7c906731862ea52824ba3133b9d45d
 	}
 	
 /*	public void takeScreenshotAtEndOfTest() throws IOException{

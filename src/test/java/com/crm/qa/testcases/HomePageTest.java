@@ -55,8 +55,11 @@ public class HomePageTest extends TestBase{
 		log.info("Inside validateHomePageTest");
 		//driver.switchTo().frame("mainpanel");
 		testutil.switchToWindow();
+<<<<<<< HEAD
 		driver.switchTo().frame("mainpanel");
 
+=======
+>>>>>>> 95eb373b6d7c906731862ea52824ba3133b9d45d
 		Assert.assertTrue(homepage.validateHomePage(), "Username not displaying !");
 	}
 	
@@ -64,8 +67,11 @@ public class HomePageTest extends TestBase{
 	public void clickonCalenderLinkTest(){
 		log.info("Inside clickonCalenderLinkTest");
 		testutil.switchToWindow();
+<<<<<<< HEAD
 		driver.switchTo().frame("mainpanel");
 
+=======
+>>>>>>> 95eb373b6d7c906731862ea52824ba3133b9d45d
 		calenderpage=homepage.clickonCalender();
 	}
 	

@@ -19,13 +19,21 @@
     <dependency>
       <groupId>org.seleniumhq.selenium</groupId>
       <artifactId>selenium-java</artifactId>
+<<<<<<< HEAD
       <version>3.8.1</version>
+=======
+      <version>3.11.0</version>
+>>>>>>> 95eb373b6d7c906731862ea52824ba3133b9d45d
     </dependency>
     
     <dependency>
       <groupId>org.testng</groupId>
       <artifactId>testng</artifactId>
+<<<<<<< HEAD
       <version>6.13.1</version>
+=======
+      <version>6.8</version>
+>>>>>>> 95eb373b6d7c906731862ea52824ba3133b9d45d
       <scope>compile</scope>
     </dependency>
     
