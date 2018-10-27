@@ -23,7 +23,7 @@ public class TestUtil extends TestBase{
 
 	public static long PAGE_LOAD_TIME = 20;
 	public static long IMPLICITELY_WAIT = 10;
-	public static String PATH_OF_DATAFILE="/home/PradyumnnaS/EclipseHome/workspace/FreeCRM/FreeCRMTest/src/main/java/com/crm/qa/testdata/FreeCRMTestData.xlsx";	
+	public static String PATH_OF_DATAFILE="/home/PradyumnnaS/EclipseHome/workspace/FreeCRM/src/main/java/com/crm/qa/testdata/FreeCRMTestData.xlsx";	
 	 
 	public static Workbook book;
 	public static Sheet sheet;

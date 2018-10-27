@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite verbose="0" name="Failed suite [Command line suite]">
-  <test thread-count="5" verbose="0" name="Command line test(failed)">
+<suite thread-count="1" verbose="0" name="Failed suite [Surefire suite]">
+  <test name="Surefire test(failed)">
     <classes>
       <class name="com.crm.qa.testcases.ContactPageTest">
         <methods>
-          <include name="tearDown"/>
           <include name="setUp"/>
           <include name="validateContactPageTest"/>
         </methods>
@@ -17,28 +16,25 @@
           <include name="setUp"/>
           <include name="clickonContactLinkTest"/>
           <include name="clickonDealsLinkTest"/>
-          <include name="tearDown"/>
           <include name="clickonCompaniesLinkTest"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.HomePageTest -->
+      <class name="com.crm.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="crmLoginPageTitleTest"/>
+          <include name="crmValideUserLoginTest"/>
+          <include name="crmLoginPageLogoTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
       <class name="com.crm.qa.testcases.CalenderPageTest">
         <methods>
           <include name="validateNewEventPageTest"/>
-          <include name="tearDown"/>
           <include name="validateCalenderpageTest"/>
           <include name="setUp"/>
           <include name="createNewEventTest"/>
         </methods>
       </class> <!-- com.crm.qa.testcases.CalenderPageTest -->
-      <class name="com.crm.qa.testcases.LoginPageTest">
-        <methods>
-          <include name="setUp"/>
-          <include name="crmLoginPageTitleTest"/>
-          <include name="tearDown"/>
-          <include name="crmValideUserLoginTest"/>
-          <include name="crmLoginPageLogoTest"/>
-        </methods>
-      </class> <!-- com.crm.qa.testcases.LoginPageTest -->
     </classes>
-  </test> <!-- Command line test(failed) -->
-</suite> <!-- Failed suite [Command line suite] -->
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
